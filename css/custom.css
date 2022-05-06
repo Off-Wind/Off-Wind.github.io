@@ -1,0 +1,30 @@
+.header {
+    padding: 10px 0;
+    transition: all 0.8s ease;
+    border-bottom: 1px solid #a8a8a8; }
+    .header nav a {
+      color: #ffffff;
+      font-size: 1rem;
+      background-color: transparent !important;
+      margin: 10 7px;
+      line-height: 1.5em;
+      transition: all 0.5s;
+      transform: translate(300px);
+      font-weight: 600; }
+      .header nav a:hover {
+        color: #17d1ac !important; }
+    .header nav a.navbar-brand {
+      color: #ffffff;
+      font-size: 24px; }
+    .header nav .nav-pills a.active {
+      color: #17d1ac !important; }
+  
+  .header-sticky {
+    background-color: #ffffff;
+    padding: 5px 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-bottom: none !important; }
+    .header-sticky nav li a {
+      color: #222; }
+    .header-sticky nav a.navbar-brand {
+      color: #222; }
